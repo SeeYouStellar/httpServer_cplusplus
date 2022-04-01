@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <title>index</title>
+</head>
+
+<body>
+    <!-- z-index是垂直屏幕放置的位置 -->
+    <canvas id='mycanvas' style="
+                                position:absolute;
+                                z-index:-1;    
+                                filter: alpha(50%);"></canvas>
+    <script src="js/background.js"></script>
+
+    <form id="formElem">    
+        <h2>FPGA推理界面</h2>
+        <input type="file" name='image_file' accept="image/*">
+        <input type="submit" class="submit"></input>
+    </form>
+    <script src="js/submitimg.js"></script>
+    
+</body>
+
+</html>

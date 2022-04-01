@@ -1,0 +1,38 @@
+{
+    "len":2,
+    "result":[
+        {
+            "class_name":"zang_wu",
+            "score":0.9716758728027344,
+            "xmin":180,
+            "ymin":292,
+            "xmax":271,
+            "ymax":358
+        },
+        {
+            "class_name":"ca_shang",
+            "score":0.9716758728027344,
+            "xmin":180,
+            "ymin":292,
+            "xmax":271,
+            "ymax":358
+        },
+        {
+            "class_name":"ca_shang",
+            "score":0.9716758728027344,
+            "xmin":180,
+            "ymin":292,
+            "xmax":271,
+            "ymax":358
+        },
+        {
+            "class_name":"ca_shang",
+            "score":0.9716758728027344,
+            "xmin":180,
+            "ymin":292,
+            "xmax":271,
+            "ymax":358
+        }
+    ]
+    
+}
